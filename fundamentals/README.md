@@ -82,8 +82,6 @@ blahblah
 
 Again, after you've typed this in, hit `Enter` to execute it.
 
-![Oh no, blahblah isn't a valid command!](./assets/blahblah.png)
-
 Our first error! And it's pretty self-explanatory - `command not found: blahblah`.
 
 We purposefully ran a command we knew was invalid, so it makes sense that it wasn't found. When you see this error, you're trying to run an invalid command!
