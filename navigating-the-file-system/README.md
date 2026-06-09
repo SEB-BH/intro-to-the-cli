@@ -17,7 +17,14 @@ pwd
 
 ![The result of running the pwd command as the student user](./assets/pwd.png)
 
-The screenshot above shows the path to the directory we're in right now (`/Users/student`). Your device likely shows something different, and that's expected. The home directory is where we start when we launch the terminal app.
+**Windows users may see something like this:**
+```bash
+Omar@DESKTOP-ABC123 MINGW64 ~/code
+$ pwd
+C:\Users\YourName\code 
+```
+
+The screenshot above shows the path to the directory we're in right now (`/Users/YourName`). Your device likely shows something different, and that's expected. The home directory is where we start when we launch the terminal app.
 
 This is important. Just like when you have a location in a store while walking around it, we have a location in the file system when navigating it. If in the process of moving the file system in the CLI, you're not sure where you are, run this command to see the path to your current location.
 

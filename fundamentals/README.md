@@ -9,17 +9,19 @@
 
 How you open your terminal application will depend upon your OS.
 
-### macOS
+#### macOS
 
 In macOS, use Spotlight to search for and open Terminal. Press `⌘ Command` + `Space` to open Spotlight and search for `Terminal`. Press `Enter` to open it.
 
-### Windows
+#### Windows
 
-If you have not completed Installfest, you won't have your Terminal configured yet. Sit back and take everything in!
+Use your `⊞ Windows key` to search for `Git Bash` and launch it. 
 
-If you have completed Installfest, use your system search to launch the Windows Terminal application in Windows 10 or the Terminal application in Windows 11. Despite the difference in names, a search for `Terminal` should work on either OS.
+![The Git Bash app in Windows](./assets/git-bash.png)
 
-### Ubuntu
+<details>
+
+<summary> <b> Ubuntu </b>  </summary>
 
 Ubuntu is cool and has a built-in keyboard shortcut to launch the Terminal application: `Ctrl` + `Alt` + `T`.
 
@@ -29,21 +31,30 @@ A quick note on the Ubuntu Terminal - copying and pasting uses a different keybo
 
 To copy from the Ubuntu terminal, use `Ctrl` + `Shift` + `C`. To paste text in the Ubuntu terminal, use `Ctrl` + `Shift` + `V`.
 
+</details>
+
+
 ## The terminal interface
 
 Regardless of your operating system, when your terminal application launches, you should see a window similar to the following:
 
 ![The terminal app in macOS](./assets/terminal.png)
 
-Note that this terminal is running Oh My Zsh. If you have not installed Oh My Zsh, it will look different. The concepts and commands discussed in this lecture will be identical, even if you have not installed Oh My Zsh.
 
 Here, you'll see the *prompt*. Let's dissect it:
 
-![The anatomy of the command line. The ➜ is denoted with 1. The ~ is denoted with 2. The █ is denoted with 3.](./assets/command-line-anatomy.png)
+```bash
+Omar@DESKTOP-ABC123 MINGW64 ~/code
+$
+```
 
-1. The arrow `➜` indicates that the computer is ready to receive input. We can type commands on this line, and they can be executed.
-2. The tilde `~` indicates our current location in the file system. We'll cover this more soon.
-3. The cursor `█`. When you start typing, this is where the text will appear and is how we write commands to be executed.
+Breakdown:
+
+- **Omar** → your username
+- **DESKTOP-ABC123** → your computer name
+- **MINGW64** → the shell environment
+- **~/code** → your current folder
+- **$** → ready for a command
 
 > 📚 The *prompt* is a sequence of characters used in a command-line interface to indicate readiness to accept commands.
 
@@ -59,8 +70,6 @@ Notice that we have control over when this command is executed. If you make a ty
 
 No typos? All ready to run this? Hit `Enter`!
 
-![The whoami command successfully running and printing student](./assets/whoami.png)
-
 This command has a simple job - print the username of the user that runs this command. In the screenshot above, the username is `student`. Yours will likely be different!
 
 After that command finished executing, we were greeted by the prompt once again, and we're free to type more commands!
@@ -73,9 +82,7 @@ blahblah
 
 Again, after you've typed this in, hit `Enter` to execute it.
 
-![Oh no, blahblah isn't a valid command!](./assets/blahblah.png)
-
-Our first error! And it's pretty self-explanatory - `zsh: command not found: blahblah`.
+Our first error! And it's pretty self-explanatory - `command not found: blahblah`.
 
 We purposefully ran a command we knew was invalid, so it makes sense that it wasn't found. When you see this error, you're trying to run an invalid command!
 
