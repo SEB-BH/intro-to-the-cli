@@ -70,7 +70,7 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "The man Command",
+          "friendlyName": "The --help Command",
           "dirName": "the-man-command",
           "type": "Content",
           "skill": "",
@@ -189,7 +189,7 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "The man Command",
+          "friendlyName": "The --help Command",
           "dirName": "the-man-command",
           "type": "Level Up content",
           "skill": "",
