@@ -3,14 +3,52 @@
   <span class="subhead">The <code>man</code> Command</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will be able to utilize the `man` command and `--help` flag to access and interpret the manual pages and help information for various commands.
+**Learning objective:** By the end of this lesson, students will be able to use the `--help` flag to find information about commands and their available options.
 
-Each command has a different set of flags and arguments it accepts. We can easily view this information without leaving our terminal environment using a command.
+Each command has different flags and arguments that change how it works.
 
-The `man` command, short for manual, allows us to view a manual page for most commands.
+Fortunately, we can find information about commands directly in our terminal!
 
-For example, you can run `man rm` to view the list of flags that the `rm` command accepts.
+## Using `--help`
 
-Since man is also a command, you can even run `man man` to view more details about the man command.
+Many commands support a `--help` flag. This displays information about what the command does and which flags it accepts.
 
-Some commands may also have the `--help` or `-h` flag. This flag can be used to display the help information for some commands. See the `Flags Lesson` for more details about flags.
+For example, run the following command:
+
+```
+rm --help
+```
+
+This displays information about the `rm` command, including the flags we can use when removing files.
+
+Try another command:
+
+```
+ls --help
+```
+
+This shows the available options for listing files and directories.
+
+> 💡 Tip: Some commands use `-h` instead of `--help`. Not every command supports these flags, but they are a useful place to start.
+
+## Using `man` (macOS and Linux)
+
+On macOS and Linux, we can also use the `man` command, which is short for manual.
+
+For example:
+
+```
+man rm
+```
+
+This opens the manual page for the `rm` command.
+
+You can even run:
+
+```
+man man
+```
+
+to learn more about the `man` command itself!
+
+> 💡 Windows users: Git Bash does not normally include the `man` command. Use `--help` instead.
