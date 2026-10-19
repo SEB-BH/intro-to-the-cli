@@ -1,6 +1,6 @@
 <h1>
   <span class="headline">Intro to the CLI</span>
-  <span class="subhead">The <code>man</code> Command</span>
+  <span class="subhead">The <code>--help</code> Command</span>
 </h1>
 
 **Learning objective:** By the end of this lesson, students will be able to use the `--help` flag to find information about commands and their available options.
