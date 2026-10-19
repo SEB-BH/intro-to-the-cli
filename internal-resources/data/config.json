@@ -70,26 +70,6 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "The Shell",
-          "dirName": "the-shell",
-          "type": "Content",
-          "skill": "",
-          "learningObjective": "",
-          "videoUrl": "https://generalassembly.wistia.com/medias/sj436hzj32",
-          "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
-        },
-        {
-          "friendlyName": "What Is a Command",
-          "dirName": "what-is-a-command",
-          "type": "Content",
-          "skill": "",
-          "learningObjective": "",
-          "videoUrl": "https://generalassembly.wistia.com/medias/5vzppgahqo",
-          "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
-        },
-        {
           "friendlyName": "The man Command",
           "dirName": "the-man-command",
           "type": "Content",
@@ -304,26 +284,6 @@
           "skill": "",
           "learningObjective": "",
           "videoUrl": "https://generalassembly.wistia.com/medias/cbo1s6gqvc",
-          "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
-        },
-        {
-          "friendlyName": "The Shell",
-          "dirName": "the-shell",
-          "type": "Level Up content",
-          "skill": "",
-          "learningObjective": "",
-          "videoUrl": "https://generalassembly.wistia.com/medias/sj436hzj32",
-          "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
-        },
-        {
-          "friendlyName": "What Is a Command",
-          "dirName": "what-is-a-command",
-          "type": "Level Up content",
-          "skill": "",
-          "learningObjective": "",
-          "videoUrl": "https://generalassembly.wistia.com/medias/5vzppgahqo",
           "videoLengthInMinutes": 0,
           "estimatedDeliveryTimeInMinutes": 0
         },
